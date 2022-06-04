@@ -194,11 +194,21 @@
  
 > *✔️vim 에디터 매크로*
 
+ ### `macro`란?
+ -vim 에디터에서 같은 동작을 반복하게 해주는 것
  
- 
-* vim 에디터 매크로 모음
+* vim 에디터 단축어 모음
  
  
  <img src="https://user-images.githubusercontent.com/106762642/171990273-8a0c108d-fe86-465b-91f2-1cdab192724c.png" weight="15000" height="600"/>
+ 
+ 
+|단축어|설명|
+|---|---|
+|q+a|a키에 recording 시작|
+|@a|매크로를 1회 실행|
+|@@|방금 실행한 매크로 실행|
+|X@a|매크로를 X회 실행|
+|q|recording 종료|
  
  
